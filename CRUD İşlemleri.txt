@@ -17,3 +17,9 @@ insert into gardiyan(gardiyanid, gardiyanadi) values ('11', 'Veysel')
 insert into gardiyan(gardiyanid, gardiyanadi) values ('12', 'Sinan')
 DELETE FROM gardiyan where gardiyanid=12;
 UPDATE gardiyan SET gardiyanadi = 'Metin' Where gardiyanid = 11;
+insert into gardiyan(gardiyanid, gardiyanadi) values ('13', 'Sergen')
+insert into gardiyan(gardiyanid, gardiyanadi) values ('14', 'Fatih')
+insert into gardiyan(gardiyanid, gardiyanadi) values ('15', 'Ferudun')
+insert into gardiyan(gardiyanid, gardiyanadi) values ('16', 'Ferru')
+DELETE FROM gardiyan where gardiyanid=16;
+UPDATE gardiyan SET gardiyanadi = 'İsmail' Where gardiyanid = 15;
