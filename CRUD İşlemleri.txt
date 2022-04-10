@@ -1,3 +1,4 @@
+insert into mudur(mudurid, muduradi, mudursoyadi) values ('1', 'Ömer', 'Yıldız')
 insert into gardiyan(gardiyanid, gardiyanadi) values ('1', 'Ali')
 insert into gardiyan(gardiyanid, gardiyanadi) values ('2', 'Mehmet')
 insert into gardiyan(gardiyanid, gardiyanadi) values ('3', 'Doğukan')
