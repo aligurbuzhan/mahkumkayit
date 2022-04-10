@@ -7,4 +7,9 @@ Proje Özeti: Projemizde kullanıcılar, kayıtlı olan mahkumları ve bilgileri
 3. Ara Gösterim (Final Öncesi) 25.05.2022 [Minimum 1 adet Filter eklenilmesi/kullanılması.]
 4. Final Gösterimi
 
+# E.R Modeli
+![E R Modeli](https://user-images.githubusercontent.com/100175822/162634617-d2203742-41a2-41b9-a263-6339e94b646a.png)
+
+
 # İlişkisel Veritabanı Tasarımı
+![iliskiselverimodeli](https://user-images.githubusercontent.com/100175822/162634608-7e8d2726-d5a9-4eab-bab2-3ed31c924007.png)
