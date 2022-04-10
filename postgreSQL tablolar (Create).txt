@@ -27,3 +27,15 @@ CREATE TABLE hapishane(
 	foreign key(depoid) references depo(depoid),
 	foreign key(gardiyanid) references gardiyan(gardiyanid)
 );
+CREATE TABLE kogus(
+	kogusid serial primary key not null,
+	koguskapasite integer not null,
+	hapishaneid serial,
+	foreign key(hapishaneid) references hapishane(hapishaneid)
+);
+CREATE TABLE sorumlu(
+	gardiyanid serial,
+	kogusid serial,
+	foreign key(gardiyanid) references gardiyan(gardiyanid),
+	foreign key(kogusid) references kogus(kogusid)
+);
