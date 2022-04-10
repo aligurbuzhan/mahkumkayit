@@ -39,3 +39,16 @@ CREATE TABLE sorumlu(
 	foreign key(gardiyanid) references gardiyan(gardiyanid),
 	foreign key(kogusid) references kogus(kogusid)
 );
+CREATE TABLE mahkum(
+	mahkumid serial primary key not null,
+	mahkumadi varchar not null,
+	mahkumceza integer not null,
+	kogusid serial,
+	foreign key(kogusid) references kogus(kogusid)
+);
+CREATE TABLE ziyaretci(
+	ziyaretciid serial primary key not null,
+	ziyaretciadi varchar not null,
+	mahkumid serial,
+	foreign key(mahkumid) references mahkum(mahkumid)
+);
