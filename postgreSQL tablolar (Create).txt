@@ -1,0 +1,13 @@
+CREATE TABLE mudur(
+	mudurid serial primary key not null,
+	muduradi varchar not null,
+	mudursoyadi varchar not null
+);
+
+CREATE TABLE revir(
+	revirid serial primary key
+);
+
+CREATE TABLE depo(
+	depoid serial primary key
+);
