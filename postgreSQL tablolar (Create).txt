@@ -11,3 +11,19 @@ CREATE TABLE revir(
 CREATE TABLE depo(
 	depoid serial primary key
 );
+CREATE TABLE gardiyan(
+	gardiyanid serial primary key,
+	gardiyanadi varchar
+);
+CREATE TABLE hapishane(
+	hapishaneid serial primary key not null,
+	hapishaneadi varchar not null,
+	mudurid serial,
+	revirid serial,
+	depoid serial,
+	gardiyanid serial,
+	foreign key(mudurid) references mudur(mudurid),
+	foreign key(revirid) references revir(revirid),
+	foreign key(depoid) references depo(depoid),
+	foreign key(gardiyanid) references gardiyan(gardiyanid)
+);
