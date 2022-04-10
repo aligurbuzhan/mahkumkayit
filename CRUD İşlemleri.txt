@@ -5,3 +5,9 @@ insert into gardiyan(gardiyanid, gardiyanadi) values ('3', 'Doğukan')
 insert into gardiyan(gardiyanid, gardiyanadi) values ('4', 'Baran')
 UPDATE mudur SET muduradi = 'Ahmet' Where mudurid = 1;
 DELETE FROM gardiyan where gardiyanid=4;
+insert into gardiyan(gardiyanid, gardiyanadi) values ('5', 'Oğuz')
+insert into gardiyan(gardiyanid, gardiyanadi) values ('6', 'Eren')
+insert into gardiyan(gardiyanid, gardiyanadi) values ('7', 'Hüseyin')
+insert into gardiyan(gardiyanid, gardiyanadi) values ('8', 'Veli')
+DELETE FROM gardiyan where gardiyanid=8;
+UPDATE gardiyan SET gardiyanadi = 'Hüsnü' Where gardiyanid = 7;
